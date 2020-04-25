@@ -160,8 +160,7 @@
                     <img src = "img/logo.png" class = "img-fluid">
                 </div>
                 <a role = "button" class = "col-sm-3 btn btn-sm btn-warning btn-block align-self-center" 
-                    data-toggle = "tooltip" data-html = "true" title = "Or Call us at <br><strong>+852 12345678</strong></br>"
-                    data-placement = "bottom" href = "#reservation_form">Reserve Table</a>
+                    data-toggle = "modal" data-target = "#reserveModal">Reserve Table</a>
             </div>
         </div>
     </header>
@@ -302,11 +301,6 @@
      <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
      <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-     <script>
-         $(document).ready(function() {
-             $('[data-toggle = "tooltip"]').tooltip();
-         });
-     </script>
 
 </body>
 
