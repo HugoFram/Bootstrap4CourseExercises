@@ -30,7 +30,7 @@
                     <li class = "nav-item"><a class = "nav-link" href = "./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
                 <span class = "navbar-text">
-                    <a id = "#loginButton">
+                    <a id = "loginButton">
                         <span class = "fa fa-sign-in"></span> Login
                     </a>
                 </span>
@@ -324,6 +324,9 @@
         $(document).ready(function() {
             $('#reserveButton').click(function() {
                 $('#reserveModal').modal('show');
+            });
+            $('#loginButton').click(function() {
+                $('#loginModal').modal('show');
             });
         });
     </script>
