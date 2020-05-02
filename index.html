@@ -160,7 +160,7 @@
                     <img src = "img/logo.png" class = "img-fluid">
                 </div>
                 <a role = "button" class = "col-sm-3 btn btn-sm btn-warning btn-block align-self-center" 
-                    id = "#reserveButton">Reserve Table</a>
+                    id = "reserveButton">Reserve Table</a>
             </div>
         </div>
     </header>
@@ -320,6 +320,13 @@
              });
          });
      </script>
+     <script>
+        $(document).ready(function() {
+            $('#reserveButton').click(function() {
+                $('#reserveModal').modal('show');
+            });
+        });
+    </script>
 
 </body>
 
